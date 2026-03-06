@@ -66,13 +66,14 @@ export default function Hero() {
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
           
-          <button
-            onClick={() => window.print()}
+          <a
+            href="/resume.pdf"
+            download="Faiz_Sadiq_Shaikh_Resume.pdf"
             className="group flex items-center justify-center gap-2 bg-white/5 hover:bg-white/10 text-white border border-white/10 px-8 py-4 rounded-xl font-medium transition-all duration-300 backdrop-blur-sm"
           >
             Download Resume
             <Download className="w-4 h-4 group-hover:-translate-y-1 transition-transform" />
-          </button>
+          </a>
         </motion.div>
       </div>
 
